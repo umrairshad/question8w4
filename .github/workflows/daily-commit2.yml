@@ -18,7 +18,7 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "23f3003871@ds.study.iitm.ac.in"
 
-      - name: Make Changes and Commit (email: 23f3003871@ds.study.iitm.ac.in)
+      - name: 23f3003871@ds.study.iitm.ac.in
         run: |
           echo "Last run: $(date)" > last_run.txt
           git add last_run.txt
